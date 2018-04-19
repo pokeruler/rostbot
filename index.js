@@ -49,4 +49,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'banana') {
+        message.reply('https://cdn.discordapp.com/attachments/426506790986055691/436346050127724544/Screenshot_20180330-215107.png');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
