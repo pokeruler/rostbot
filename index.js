@@ -57,4 +57,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'mexican') {
+        message.reply('https://cdn.discordapp.com/attachments/330419689031335937/436346902855024640/image_-_Copy.png');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
