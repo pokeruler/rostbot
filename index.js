@@ -44,7 +44,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
     
     if(message.content == 'help meme') {
-        message.reply('Here fag, these are the commands: fag, poke, whore, indian, and monkey');
+        message.reply('Here fag, these are the commands: fag, poke, mexican, banana, whore, indian, and monkey');
     }
 
 });
