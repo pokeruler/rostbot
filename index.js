@@ -65,4 +65,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'julia') {
+        message.reply('https://metrouk2.files.wordpress.com/2018/02/pri_69465482.jpg?w=964&h=547&crop=1');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
