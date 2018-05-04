@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
     
     if(message.content == 'fag') {
-        message.reply('red, https://cdn.discordapp.com/attachments/386275238050004992/435633931078074389/15202234103141925776752_big.png');
+        message.reply('https://cdn.discordapp.com/attachments/386275238050004992/435633931078074389/15202234103141925776752_big.png');
     }
 
 });
