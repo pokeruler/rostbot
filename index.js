@@ -89,4 +89,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'alex') {
+        message.reply('https://imgur.com/a/LY3rXen');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
