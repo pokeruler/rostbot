@@ -73,4 +73,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'covers') {
+        message.reply('https://imgur.com/a/zgeRQlT');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
