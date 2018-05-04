@@ -81,4 +81,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'squad') {
+        message.reply('https://cdn.discordapp.com/attachments/426494967569973250/441774048624640010/1366382.png');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
