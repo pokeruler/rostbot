@@ -121,4 +121,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'guitar') {
+        message.reply('https://imgur.com/a/U41IlH1');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
