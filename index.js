@@ -105,4 +105,12 @@ bot.on('message', (message) => {
 
 });
 
+bot.on('message', (message) => {
+    
+    if(message.content == 'tech') {
+        message.reply('https://imgur.com/a/G1983zQ');
+    }
+
+});
+
 bot.login('NDM1NjMyMzMxODQ0MzU0MDU5.DbbxvQ.LuOxBsO-XaxZvtecDBopjk7wp4Q');
